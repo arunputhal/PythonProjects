@@ -1,0 +1,5 @@
+length = eval(input("Enter the length of the cuboid: "))
+breadth = eval(input("Enter the breadth of the cuboid: "))
+height = eval(input("Enter the height of the cuboid: "))
+area = 2 * ((length * height) + (length * breadth) + (breadth * height))
+print(f"The total surface area of the cuboid is: {area}")
